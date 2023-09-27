@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jra1029/week-3-intro-to-marl-julialruiter/submission/mlflow/826697510224621993/497e294b50684912a2f09354886a2fc8/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '826697510224621993'
+lifecycle_stage: active
+run_id: 497e294b50684912a2f09354886a2fc8
+run_name: CentralizedCritic_MultiGrid-CompetativeRedBlueDoor-v3-CTDE-Red_349f2_00000
+run_uuid: 497e294b50684912a2f09354886a2fc8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695827520871
+status: 1
+tags: []
+user_id: unknown

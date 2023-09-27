@@ -84,11 +84,16 @@ def configure_algorithm(args):
         The constructed algorithm configuration object.
     """
     # HW3 NOTE - Setup Policies mapping with user customized Policy Class
+    print(args)
     team_policies_mapping = args.training_config["team_policies_mapping"]
     training_policies = {}
 
     for policy_id in args.policies_to_train:
         policy_name = team_policies_mapping[policy_id]
+        print('')
+        print(policy_id)
+        print(policy_name)
+        print('')
         training_policy = SubmissionPolicies[policy_name](policy_id=policy_id, policy_name=policy_name)
         training_policies[policy_id] = training_policy
 
