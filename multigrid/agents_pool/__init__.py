@@ -8,7 +8,8 @@ from multigrid.agents_pool.YourName_policies.Custom_2_goal import Custom_2_goal_
 SubmissionPolicies = {
     "your_policy_name": YourPolicyName_Policy,
     "your_policy_name_v2": YourPolicyNameV2_Policy,
-    "Custom_1_BAD": Custom_1_offensive_Policy,
+    "Custom_1_BAD": Custom_1_offensive_Policy,  # never got out of negative rewards
     "Custom_1_offensive": Custom_1_full_offensive_Policy,
-    "Custom_2_goal": Custom_2_goal_Policy
+    "Custom_2_goal": Custom_2_goal_Policy,
+    "Custom_2_goal_copy": Custom_2_goal_Policy  # since multiagent fails when same policy used twice
 }
